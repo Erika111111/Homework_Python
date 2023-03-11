@@ -14,8 +14,8 @@ x = 9
 count = 0
 lst = [random.randint(1,10) for _ in range(n)]
 print(lst)
-for i in range(1, len(lst)):
-    if lst[i] == x:
+for i in lst:
+    if i == x:
         count+=1
 print(count)
 
