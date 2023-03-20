@@ -17,7 +17,7 @@ def count_vowels(word):
     return count
 
 
-poem = input("Введите Ваше стихотворение: ")
+poem = input("Введите стихотворение: ")
 phrases = poem.split()
 
 vowel_counts = []
