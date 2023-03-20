@@ -9,7 +9,7 @@
 # **Вывод:** Парам пам-пам  
 
 def count_vowels(word):
-    vowels = "аеёиоуыэюя" # список гласных букв
+    vowels = "аеёиоуыэюя" 
     count = 0
     for letter in word:
         if letter.lower() in vowels:
